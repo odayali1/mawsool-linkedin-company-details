@@ -1,0 +1,40 @@
+{
+  "$schema": "https://apify.com/schemas/v1/actor.ide.json",
+  "actorSpecification": 1,
+  "name": "mawsool-linkedin-company-details",
+  "title": "LinkedIn Company Details Scraper from URL",
+  "description": "LinkedIn company details scraper. Paste a company URL and get the website, industry, employee range, headquarters, locations, specialties, similar companies, and recent posts. You supply the URL. Starting from $0.90 per 1,000 companies. No LinkedIn login and no cookies.",
+  "seoTitle": "LinkedIn Company Details Scraper by URL",
+  "seoDescription": "LinkedIn company details scraper. Turn a company URL into website, industry, size, HQ, locations, specialties, and recent posts. Starting from $0.90 per 1,000.",
+  "categories": [
+    "LEAD_GENERATION",
+    "SOCIAL_MEDIA",
+    "AUTOMATION"
+  ],
+  "version": "1.0",
+  "buildTag": "latest",
+  "minMemoryMbytes": 256,
+  "maxMemoryMbytes": 1024,
+  "defaultRunOptions": {
+    "build": "latest",
+    "timeoutSecs": 21600,
+    "memoryMbytes": 256
+  },
+  "environmentVariables": {
+    "ACTOR_MODE": "company",
+    "CHARGE_EVENT": "company-details",
+    "COMPANY_API_BASE_URL": "http://company-lockup.34.166.92.24.sslip.io",
+    "COMPANY_API_KEY": "@mawsoolCompanyApiKey"
+  },
+  "meta": {
+    "templateId": "ts-empty",
+    "generatedBy": "Cursor Agent"
+  },
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "pricing": "./pay_per_event.json",
+  "dockerfile": "../Dockerfile"
+}
