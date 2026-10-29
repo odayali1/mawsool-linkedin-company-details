@@ -1,0 +1,26 @@
+# LinkedIn Company Details
+
+> Send a LinkedIn company URL. You get the website, industry, size, headquarters, locations, specialties, and recent posts.
+
+Mawsool publishes this as an Apify Actor. Starting from $0.90 per 1,000 companies.
+
+## Run
+
+- Apify Actor: https://apify.com/oday/mawsool-linkedin-company-details
+- Call: `oday/mawsool-linkedin-company-details`
+- API key: https://mawsool.tech/ and https://docs.mawsool.tech/
+- Contact: osama@mawsool.tech, info@mawsool.tech
+
+## Use it when
+
+You want the full company record from a URL you already have.
+
+## Use something else when
+
+You only need the website, industry, and employee range. Use Firmographics. You have a person, not a company URL. Use Profile to Company Website.
+
+## Page
+
+- LinkedIn company details from a company URL: docs/linkedin-company-details.md
+
+Mawsool is not affiliated with LinkedIn.
